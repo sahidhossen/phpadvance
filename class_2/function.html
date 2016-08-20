@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Javascirpt Function </title>
+	
+	<style type="text/css">
+		.modal {
+			width: 450px;
+			height: 300px;
+			box-shadow: 1px 2px 4px 2px #ddd; 
+			border: 1px solid #ddd; 
+			margin: 50px auto;
+			position: absolute;
+			left: 25%;
+			top: -100%;
+			display: none;
+		}
+		.modal .title {
+			margin: 0; 
+			padding: 10px; 
+			border-bottom: 1px solid #ddd;
+		}
+		.modal .modal-body {
+			padding: 10px; 
+
+		}
+		.openModal {
+			text-align: center;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+
+<h3 class="openModal"> Click me </h3>
+	
+	<div class="modal">
+		<h3 class="title"> This is modal </h3>
+		<div class="modal-body">
+			This is modal body
+		</div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/function.js"></script>
+</body>
+</html>
